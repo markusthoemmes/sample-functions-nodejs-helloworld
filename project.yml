@@ -4,4 +4,4 @@ packages:
       - name: hello
         runtime: 'nodejs:default'
         environment:
-          LOG_DESTINATIONS: ${LOG_DESTINATIONS}
+          LOG_DESTINATIONS: '${LOG_DESTINATIONS}'
